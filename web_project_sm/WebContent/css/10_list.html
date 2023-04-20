@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - List</title>
+	<style>
+		* {
+			font-family:"나눔고딕";
+		}
+		ul.u1 {
+			border:1px solid red;
+			list-style-type:circle;
+			padding:20px;
+			background:mediumseagreen;
+		}
+		ul.u1 li {
+			border:1px solid blue;
+			background:ligtgray;
+			margin:5px;
+			padding-left:5px;
+		}
+		ul.u2 {
+			border:1px solid red;
+			list-style-type:none;
+			padding:0px;
+		}
+		ul.u2 li {
+			/* border:1px solid blue; */
+			/* display:inline-block;
+			padding:5px; */
+			width:100px;
+			text-align:center;
+			/* margin-left:12px; */
+			float:left;
+		}
+		ul.u2 a {
+			text-decoration:none;
+			display:inline-block;
+			background:tomato;
+			width:100px;
+			padding:10px;
+			margin-right:5px;
+			color:white;
+			font-size:12px;
+			
+			/* font-weight:bold; */
+		}
+		ul.u2 li:nth-child(1){
+			/* background:tomato; */
+			margin-left:30px;
+		}
+	</style>
+</head>
+<body>
+	<h1>List - UL, OL</h1>
+	<ul class="u1">
+		<li>JAVA</li>
+		<li>Oracle</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+	</u1>
+	
+	<h3>Navigation Menu</h3>
+	<u1 class="u2">
+	<li class="Login"><a href="#">로그인</a></li>
+		<li>회원가입</li>
+		<li>마이페이지</li>
+		<li>공지사항</li>
+		<li>게시판</li>
+		<li>관리자</li>
+	</u1>
+</body>
+</html>

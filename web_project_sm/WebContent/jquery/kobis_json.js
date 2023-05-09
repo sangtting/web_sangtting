@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	const kobis = {"boxOfficeResult": 
 					{"boxofficeType": "일별 박스오피스",
 			        "showRange": "20230502~20230502",
@@ -196,3 +196,4 @@ $(document).ready(function(){
 			    }
 			} 
 }
+*/

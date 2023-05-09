@@ -10,6 +10,6 @@
 	<h1>Hello~~ JSP~!!!</h1>
 	<% /* <% : 스크립트 립 */
 		out.write("JSP 실행!!");
-	%> 
+	%>
 </body>
 </html>
